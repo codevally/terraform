@@ -9,6 +9,6 @@ resource "aws_instance" "web-server" {
   instance_type = "t2.micro"
 
   tags {
-    Name = "terraformtraining.com"
+    Name = "terraformtraining"
   }
 }
