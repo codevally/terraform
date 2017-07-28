@@ -1,6 +1,6 @@
 # Key Pair Block
 resource "aws_key_pair" "markb" {
-  key_name   = "markb"
+  key_name   = "id_rsa"
   public_key = "${file("${var.mark_public_key}")}"
 }
 
