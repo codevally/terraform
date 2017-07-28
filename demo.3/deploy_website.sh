@@ -1,5 +1,4 @@
 #!/bin/bash
-yum update -y
 yum install epel-release -y
 yum install nginx git -y
 cd /usr/share/nginx/html
