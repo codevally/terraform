@@ -11,7 +11,7 @@ variable "mark_public_key" {
 }
 
 variable "mark_private_key" {
-  default = "/home/markb/ssh/id_rsa"
+  default = "/home/markb/.ssh/id_rsa"
 }
 
 variable "webserver_username" {
