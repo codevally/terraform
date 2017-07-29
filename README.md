@@ -1,5 +1,3 @@
-# Udemy Terraform course 
-
 ## How to install Terraform
 
 Head over to https://www.terraform.io/downloads.html and download the latest zip file for your operating system.
@@ -20,3 +18,5 @@ demo.1 | Spinning up your first instance
 demo.2 | Using AWS CLI variables/credentials
 demo.2a | Using terraform.tfvars for credentials
 demo.3 | Bootstraping software
+demo.4 | Creating an S3 bucket
+demo.5 | Saving Terraform remote state to S3
