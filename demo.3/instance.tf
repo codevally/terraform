@@ -8,7 +8,7 @@ resource "aws_key_pair" "markb" {
 resource "aws_instance" "web-server" {
   ami           = "ami-0c2aba6c"
   instance_type = "t2.micro"
-  key_name = "${aws_key_pair.markb.key_name}"
+  key_name      = "${aws_key_pair.markb.key_name}"
 
   tags {
     Name = "terraformtraining.com"
