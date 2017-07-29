@@ -13,3 +13,10 @@ So if you extracted the Terraform executable to `/home/mark/terraform/`
 For linux/mac run `export PATH=$PATH:/home/mark/terraform:$PATH`
 
 For Windows users run ```set PATH=%PATH%;C:\terraform```
+
+Folder | Lesson
+------------ | -------------
+demo.1 | Spinning up your first instance
+demo.2 | Using AWS CLI variables/credentials
+demo.2a | Using terraform.tfvars for credentials
+demo.3 | Bootstraping software
