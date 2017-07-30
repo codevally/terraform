@@ -1,6 +1,6 @@
 # Create a new instance of the latest CentOS7 on an
 # t2.micro node with an AWS Tag naming it "CentOS"
-data "aws_ami" "centos" {
+data "aws_ami" "web-server" {
   most_recent = true
 
   filter {
@@ -17,10 +17,10 @@ data "aws_ami" "centos" {
 }
 
 resource "aws_instance" "web-server" {
-  ami           = "${data.aws_ami.centos.id}"
+  ami           = "${data.aws_ami.web-server.id}"
   instance_type = "t2.micro"
 
   tags {
-    Name = "CentOS"
+    Name = "terraformtraining.com"
   }
 }
