@@ -20,3 +20,4 @@ demo.2a | Using terraform.tfvars for credentials
 demo.3 | Bootstraping software
 demo.4 | Creating an S3 bucket
 demo.5 | Saving Terraform remote state to S3
+demo.6 | Data sources
