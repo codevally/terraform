@@ -16,8 +16,10 @@ Folder | Lesson
 ------------ | -------------
 demo.1 | Spinning up your first instance
 demo.2 | Using AWS CLI variables/credentials
-demo.2a | Using terraform.tfvars for credentials
+demo.2b | Using terraform.tfvars for credentials
 demo.3 | Bootstraping software
 demo.4 | Creating an S3 bucket
 demo.5 | Saving Terraform remote state to S3
-demo.6 | Data sources
+demo.6 | local-exec provisioner
+demo.7 | Outputs
+demo.8 | Data sources
